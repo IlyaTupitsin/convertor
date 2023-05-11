@@ -122,6 +122,7 @@
             this.label1.Size = new System.Drawing.Size(25, 20);
             this.label1.TabIndex = 9;
             this.label1.Text = "из";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -182,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(726, 263);
+            this.ClientSize = new System.Drawing.Size(736, 263);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.radioButton6);
             this.Controls.Add(this.radioButton5);
